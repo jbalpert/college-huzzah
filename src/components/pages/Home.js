@@ -1,5 +1,6 @@
 import React from "react";
 import "../../App.css";
+import Footer from "../Footer";
 import HeroSection from "../HeroSection";
 import Mentors from "../Mentors";
 
@@ -8,6 +9,7 @@ function Home() {
     <>
       <HeroSection />
       <Mentors />
+      <Footer />
     </>
   );
 }
