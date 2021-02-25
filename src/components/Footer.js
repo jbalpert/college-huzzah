@@ -64,7 +64,7 @@ function Footer() {
               <i className="fas fa-graduation-cap" />
             </Link>
           </div>
-          <small class="website-rights">Jonathan Alpert © 2021</small>
+          <small className="website-rights">Jonathan Alpert © 2021</small>
           <div className="social-icons">
             <Link
               className="social-icon-link facebook"
@@ -88,7 +88,7 @@ function Footer() {
               target="_blank"
               aria-label="Youtube"
             >
-              <i class="fab fa-youtube" />
+              <i className="fab fa-youtube" />
             </Link>
             <Link
               className="social-icon-link twitter"
@@ -104,7 +104,7 @@ function Footer() {
               target="_blank"
               aria-label="LinkedIn"
             >
-              <i class="fab fa-linkedin" />
+              <i className="fab fa-linkedin" />
             </Link>
           </div>
         </div>

@@ -9,7 +9,11 @@ function MentorItem(props) {
             className="mentors__item__pic-wrap"
             data-category={props.label}
           >
-            <img className="mentors__item__img" src={props.src} />
+            <img
+              className="mentors__item__img"
+              src={props.src}
+              alt={props.alt}
+            />
           </figure>
           <div className="mentors__item__info">
             <h5 className="mentors__item__text">{props.text}</h5>
